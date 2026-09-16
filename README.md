@@ -1,42 +1,93 @@
-# Power BI Projects
+# 📊 Data Analytics Projects
 
-A collection of end-to-end data analytics and business intelligence projects built using **Power BI, Python, SQL, PostgreSQL, Power Query, Next.js, and data visualization tools**.
+> A growing portfolio of **end-to-end Data Analytics, Business Intelligence, SQL, Python, and Power BI projects** focused on transforming raw data into meaningful insights and business decisions.
 
-This repository contains practical projects focused on transforming raw data into interactive dashboards, web applications, and actionable business insights.
-
----
-
-## Projects
-
-| Project | Description | Tools |
-|---|---|---|
-| [Customer Shopping Behaviour Analysis](./Customer%20Shopping%20Behaviour%20Analysis) | Analyzes customer purchasing patterns, product performance, loyalty, discounts, and customer behaviour. | Python, SQL, Power BI |
-| [Global Data Science Salary Dashboard](./Global-Data-Science-Salary-Dashboard) | Explores Data Science salary trends and compares India with global markets across experience, roles, and locations. | Python, Pandas, Power BI |
-| [Ride Bookings Analysis](./Riding%20Analysis) | Analyzes 150K ride bookings across 2024 — booking volume, revenue, vehicle performance, and cancellation patterns. | Power BI, Power Query, DAX |
-| [Starbucks Analysis Dashboard](./Starbucks%20Analysis%20Dashboard) | Store-operations analytics: a live PostgreSQL-backed web app plus a companion Power BI sales report. | Next.js, PostgreSQL, Power BI |
-| [Weather Dashboard](./Weather%20Dashboard) | Interactive weather dashboard using API-based weather data with current, daily, and hourly weather information. | Power BI, Power Query, Weather API, Excel |
-| [SQL Data Analytics Project](./SQL%20Project) | A collection of SQL scripts for data exploration, analytics, and reporting over a data-warehouse database. | SQL Server, T-SQL |
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=sqlite\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
 ---
 
-# 1. Customer Shopping Behaviour Analysis
+## 👋 About This Repository
+
+Welcome to my **Data Analytics Portfolio**.
+
+This repository contains practical, end-to-end analytics projects designed to demonstrate how raw data can be transformed into **clean datasets, analytical models, interactive dashboards, and actionable business insights**.
+
+The projects cover multiple areas including:
+
+* 📈 Business & Sales Analytics
+* 👥 Customer Analytics
+* 💰 Salary & Compensation Analytics
+* 🚕 Operations Analytics
+* ☕ Retail Analytics
+* 🌦️ API & Weather Analytics
+* 🗄️ SQL & Data Warehouse Analytics
+* 📊 Business Intelligence & Dashboarding
+
+Rather than focusing only on visualization, these projects follow a structured analytical workflow:
+
+```text
+Raw Data
+   ↓
+Data Collection
+   ↓
+Data Cleaning
+   ↓
+Data Transformation
+   ↓
+Exploratory Data Analysis
+   ↓
+SQL / Statistical Analysis
+   ↓
+Data Modeling
+   ↓
+Dashboard / Report / Application
+   ↓
+Business Insights
+   ↓
+Recommendations
+```
+
+---
+
+# 🚀 Projects
+
+| #  | Project                                                                         | Domain               | Primary Tools                 |
+| -- | ------------------------------------------------------------------------------- | -------------------- | ----------------------------- |
+| 01 | [Customer Shopping Behaviour Analysis](#1-customer-shopping-behaviour-analysis) | Customer Analytics   | Python, MySQL, Power BI       |
+| 02 | [Global Data Science Salary Dashboard](#2-global-data-science-salary-dashboard) | Salary Analytics     | Python, Pandas, Power BI      |
+| 03 | [Ride Bookings Analysis](#3-ride-bookings-analysis)                             | Operations Analytics | Power BI, Power Query, DAX    |
+| 04 | [Starbucks Analysis Dashboard](#4-starbucks-analysis-dashboard)                 | Retail Analytics     | PostgreSQL, Next.js, Power BI |
+| 05 | [Weather Dashboard](#5-weather-dashboard)                                       | API Analytics        | Power BI, Power Query, Excel  |
+| 06 | [SQL Data Analytics Project](#6-sql-data-analytics-project)                     | SQL Analytics        | SQL Server, T-SQL             |
+| 07 | [Banking Analysis](#7-banking-analysis)                                         | Financial Analytics  | SQL, Power BI, Python         |
+
+---
+
+# 1. 🛍️ Customer Shopping Behaviour Analysis
 
 ### Overview
 
-An end-to-end analytics project that analyzes customer shopping behaviour and identifies patterns in purchasing, product performance, customer loyalty, discounts, shipping, and customer satisfaction.
+An end-to-end customer analytics project focused on understanding **customer purchasing behaviour, product performance, customer loyalty, discounts, payment methods, shipping preferences, and customer satisfaction**.
 
-### Key Areas
+The project combines Python-based data analysis, SQL querying, and Power BI dashboard development.
 
-- Customer demographics
-- Product category performance
-- Customer loyalty
-- Subscription behaviour
-- Purchase frequency
-- Discount analysis
-- Payment methods
-- Shipping preferences
-- Customer ratings
-- Seasonal trends
+### Key Business Questions
+
+* Which customer segments generate the most revenue?
+* Which product categories perform best?
+* How does customer loyalty affect purchasing behaviour?
+* What impact do discounts have on sales?
+* Which payment methods are most frequently used?
+* How do subscription and shipping preferences vary?
+* Which customer segments have the highest purchase frequency?
+* What seasonal patterns exist in customer purchases?
 
 ### Workflow
 
@@ -51,46 +102,49 @@ Exploratory Data Analysis
      ↓
 SQL Analysis
      ↓
-Power BI Dashboard
+Power BI Data Modeling
+     ↓
+DAX Measures
+     ↓
+Interactive Dashboard
      ↓
 Business Insights
 ```
 
 ### Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- MySQL
-- SQL
-- Power BI
-- DAX
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* MySQL
+* SQL
+* Power BI
+* DAX
+* Jupyter Notebook
 
-### Project
-
-[View Customer Shopping Behaviour Analysis →](./Customer%20Shopping%20Behaviour%20Analysis)
+👉 **[View Project →](./Customer%20Shopping%20Behaviour%20Analysis)**
 
 ---
 
-# 2. Global Data Science Salary Dashboard
+# 2. 💼 Global Data Science Salary Dashboard
 
 ### Overview
 
-A salary analytics project that explores the global Data Science job market and compares salary trends between India and international markets.
+A salary analytics project analyzing the **global Data Science job market** and comparing compensation across countries, experience levels, job roles, and work arrangements.
 
-The analysis focuses on the relationship between compensation and factors such as experience, job role, location, and remote work.
+A particular focus is placed on understanding **India vs global salary trends**.
 
 ### Key Areas
 
-- Salary distribution
-- Experience-level analysis
-- Job role comparison
-- India vs Global salary comparison
-- Remote work analysis
-- Geographic salary trends
-- Highest-paying roles
-- Data Science job market patterns
+* Salary distribution
+* Experience-level analysis
+* Job role comparison
+* India vs Global salary comparison
+* Remote work analysis
+* Geographic salary trends
+* Highest-paying roles
+* Salary progression with experience
 
 ### Workflow
 
@@ -103,143 +157,177 @@ Feature Engineering
         ↓
 Exploratory Data Analysis
         ↓
-Data Preparation
+Data Transformation
         ↓
-Power BI Dashboard
+Power BI Data Preparation
+        ↓
+Dashboard Development
         ↓
 Salary Insights
 ```
 
 ### Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Power BI
-- DAX
-- Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Power BI
+* DAX
+* Jupyter Notebook
 
-### Project
-
-[View Global Data Science Salary Dashboard →](./Global-Data-Science-Salary-Dashboard)
+👉 **[View Project →](./Global-Data-Science-Salary-Dashboard)**
 
 ---
 
-# 3. Ride Bookings Analysis
+# 3. 🚕 Ride Bookings Analysis
 
 ### Overview
 
-An end-to-end Power BI report analyzing **150,000 ride bookings from January–December 2024**, covering booking volume, revenue, vehicle performance, and cancellation patterns to uncover operational insights.
+An end-to-end Power BI project analyzing **150,000 ride bookings across 2024** to understand booking performance, revenue, vehicle utilization, cancellations, and failed rides.
 
-The report spans four pages (Home, Overview, Vehicle Type Analysis, and Cancellations & Failed Rides) and ships with a custom dark-premium Power BI theme.
+The report contains multiple analytical pages covering operational and business KPIs.
 
-### Key Areas
+### Key Metrics & Analysis
 
-- Booking volume and monthly trends
-- Completion rate and revenue KPIs
-- Vehicle type performance (7 categories)
-- Revenue and customer distribution
-- Driver vs customer cancellation reasons
-- Failure-rate analysis (38% of bookings never complete)
-- Payment method breakdown
+* Total bookings
+* Completed bookings
+* Revenue
+* Completion rate
+* Booking trends
+* Vehicle type performance
+* Customer cancellations
+* Driver cancellations
+* Failed rides
+* Payment methods
+* Revenue distribution
+* Customer distribution
+
+### Dashboard Structure
+
+```text
+Home
+ │
+ ├── Overview
+ │
+ ├── Vehicle Type Analysis
+ │
+ └── Cancellations & Failed Rides
+```
 
 ### Workflow
 
 ```text
-Raw Bookings Dataset (150K rows)
+150K Ride Bookings
         ↓
-Power Query Cleaning
+Power Query
         ↓
-Data Modeling (_Measures table)
+Data Cleaning
         ↓
-DAX Measures & Calculated Columns
+Data Modeling
         ↓
-Multi-Page Power BI Report
+DAX Measures
+        ↓
+Power BI Dashboard
         ↓
 Operational Insights
 ```
 
 ### Technologies
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Custom Power BI Theme (JSON)
+* Power BI Desktop
+* Power Query
+* DAX
+* JSON Theme
+* Data Modeling
 
-### Project
-
-[View Ride Bookings Analysis →](./Riding%20Analysis)
+👉 **[View Project →](./Riding%20Analysis)**
 
 ---
 
-# 4. Starbucks Analysis Dashboard
+# 4. ☕ Starbucks Analysis Dashboard
 
 ### Overview
 
-A two-part analytics project for a simulated Starbucks store (Store #101, Seattle Flagship) that turns raw order data into real-time, actionable insight:
+A retail analytics project combining a **PostgreSQL-backed web application** with a **Power BI sales dashboard**.
 
-- **Starbucks Sales Manager (Web App)** — a live order-management console built with Next.js and backed by PostgreSQL, with real-time metrics (total sales, order volume, average order value, top-selling item) and a searchable/filterable transactions table.
-- **Power BI Report** — a "Daily Sales Performance" report with hourly breakdowns of average spend, revenue, and units sold, alongside order/customer/quantity KPIs.
+The project demonstrates how transactional data can support both **real-time operational monitoring** and **executive-level business reporting**.
 
-Together they cover the full loop: raw transactional data → operational dashboard → executive reporting.
+### Starbucks Sales Manager
 
-### Key Areas
+The web application provides:
 
-- Real-time KPI cards (sales, orders, avg order value, top item)
-- Order transactions table with search and filters
-- Average spend per order by hour
-- Revenue by hour
-- Units sold by hour
-- Order, customer, amount, and quantity summaries
+* Real-time sales KPIs
+* Order volume
+* Average Order Value
+* Top-selling item
+* Searchable transactions
+* Filtering capabilities
+* PostgreSQL-backed data
 
-### Workflow
+### Power BI Report
+
+The Power BI report analyzes:
+
+* Revenue by hour
+* Average spend by hour
+* Units sold
+* Order volume
+* Customer metrics
+* Quantity metrics
+* Sales performance
+
+### Architecture
 
 ```text
-Transactional Data (CSV / PostgreSQL)
-            ↓
-SQL Aggregation Queries
-            ↓
-     ┌──────────────┐
-     ▼              ▼
-Next.js Web App   Power BI Report
-     ▼              ▼
-Live Operations   Executive Reporting
+Transactional Data
+       ↓
+   PostgreSQL
+       ↓
+  SQL Queries
+       ↓
+ ┌───────────────┐
+ │               │
+ ▼               ▼
+Next.js       Power BI
+Web App       Dashboard
+ │               │
+ ▼               ▼
+Operations    Reporting
 ```
 
 ### Technologies
 
-- Next.js / React
-- PostgreSQL
-- Power BI
-- SQL
-- Tailwind CSS
+* Next.js
+* React
+* PostgreSQL
+* SQL
+* Power BI
+* Tailwind CSS
 
-### Project
-
-[View Starbucks Analysis Dashboard →](./Starbucks%20Analysis%20Dashboard)
+👉 **[View Project →](./Starbucks%20Analysis%20Dashboard)**
 
 ---
 
-# 5. Weather Dashboard
+# 5. 🌦️ Weather Dashboard
 
 ### Overview
 
-An interactive Power BI dashboard designed to present weather information using data obtained through a weather API.
+An interactive weather analytics dashboard that integrates **API-based weather data** and transforms it into an interactive Power BI experience.
 
-The project transforms weather API data into structured datasets and visualizes current weather conditions along with daily and hourly forecasts.
+The dashboard provides both current conditions and forecast-based analysis.
 
-### Key Areas
+### Key Features
 
-- Current weather
-- Temperature
-- Weather conditions
-- Daily forecast
-- Hourly forecast
-- Wind information
-- Humidity
-- Weather trends
+* Current temperature
+* Weather conditions
+* Daily forecast
+* Hourly forecast
+* Wind information
+* Humidity
+* Weather trends
+* Interactive filtering
 
 ### Workflow
 
@@ -254,352 +342,382 @@ Structured Dataset
      ↓
 Power BI
      ↓
-Interactive Weather Dashboard
+Interactive Dashboard
 ```
 
 ### Technologies
 
-- Power BI
-- Power Query
-- Weather API
-- Microsoft Excel
-- Data Transformation
-- Data Visualization
+* Power BI
+* Power Query
+* Weather API
+* Microsoft Excel
+* Data Transformation
 
-### Project
-
-[View Weather Dashboard →](./Weather%20Dashboard)
+👉 **[View Project →](./Weather%20Dashboard)**
 
 ---
 
-# 6. SQL Data Analytics Project
+# 6. 🗄️ SQL Data Analytics Project
 
 ### Overview
 
-A comprehensive collection of SQL scripts for data exploration, analytics, and reporting over a data-warehouse database (bronze/gold layered `DataWarehouseAnalytics` sample). Each script focuses on a specific analytical theme and demonstrates best practices for analytical SQL.
+A comprehensive SQL analytics project focused on **data exploration, analytical SQL, segmentation, ranking, trends, performance analysis, and reporting** using a layered data warehouse.
 
-> Completed as course-based practice following the **Data With Baraa** SQL Data Analytics course. Original scripts and materials are credited to their author (see the folder's own README and LICENSE).
+The project demonstrates practical SQL techniques used in real-world analytical environments.
 
-### Key Areas
+### Analysis Areas
 
-- Database and dimensions exploration
-- Date-range and measures exploration
-- Magnitude and ranking analysis
-- Change-over-time and cumulative analysis
-- Performance analysis
-- Data segmentation
-- Part-to-whole analysis
-- Customer and product reporting
+* Database exploration
+* Dimension exploration
+* Date-range analysis
+* Measures exploration
+* Magnitude analysis
+* Ranking analysis
+* Change-over-time analysis
+* Cumulative analysis
+* Performance analysis
+* Customer segmentation
+* Product segmentation
+* Part-to-whole analysis
+* Customer reporting
+* Product reporting
+
+### SQL Concepts Demonstrated
+
+```text
+SELECT
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+JOINs
+Subqueries
+CTEs
+Window Functions
+CASE Statements
+Aggregations
+Date Functions
+Analytical Queries
+```
 
 ### Workflow
 
 ```text
-Initialize Database (.bak restore)
-        ↓
-Exploration (dimensions, dates, measures)
-        ↓
-Analytics (magnitude, ranking, trends, cumulative)
-        ↓
-Advanced (segmentation, part-to-whole, performance)
-        ↓
-Reporting (customer & product reports)
+Data Warehouse
+      ↓
+Database Exploration
+      ↓
+Data Analysis
+      ↓
+Trend & Ranking Analysis
+      ↓
+Segmentation
+      ↓
+Performance Analysis
+      ↓
+Customer & Product Reports
 ```
 
 ### Technologies
 
-- SQL Server
-- T-SQL
+* SQL Server
+* T-SQL
+* Data Warehouse
+* Analytical SQL
 
-### Project
+> This project was completed as course-based practice following the Data With Baraa SQL Data Analytics course. Original educational materials and attribution are maintained within the project folder.
 
-[View SQL Data Analytics Project →](./SQL%20Project)
-
----
-
-# Skills Demonstrated
-
-These projects demonstrate practical experience across the complete data analytics workflow.
-
-### Data Analysis
-
-- Data Cleaning
-- Data Transformation
-- Exploratory Data Analysis
-- Feature Engineering
-- Statistical Analysis
-- Data Validation
-
-### Python
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
-### SQL
-
-- Data Retrieval
-- Filtering
-- Aggregations
-- GROUP BY
-- HAVING
-- JOINs
-- Subqueries
-- Window Functions
-- Analytical & Reporting Queries
-
-### Power BI
-
-- Data Modeling
-- Power Query
-- DAX
-- Interactive Dashboards
-- KPI Cards
-- Slicers
-- Charts and Visualizations
-- Custom Themes
-- Business Intelligence Reporting
-
-### Web & Databases
-
-- Next.js / React
-- PostgreSQL
-- Real-time data aggregation
-- REST API endpoints
-
-### Other Tools
-
-- Microsoft Excel
-- MySQL
-- Git & GitHub
-- Weather APIs
+👉 **[View Project →](./SQL%20Project)**
 
 ---
 
-# End-to-End Analytics Approach
+# 7. 🏦 Banking Analysis
 
-The projects in this repository generally follow a structured analytics process:
+### Overview
+
+A banking analytics project focused on extracting meaningful insights from banking-related data using analytical techniques and business intelligence tools.
+
+The project focuses on understanding customer, transaction, and financial patterns to support data-driven decision-making.
+
+### Focus Areas
+
+* Customer analysis
+* Banking transactions
+* Financial metrics
+* Customer segmentation
+* Transaction trends
+* Business performance
+* KPI analysis
+* Interactive reporting
+
+👉 **[View Project →](./Banking%20Analysis)**
+
+---
+
+# 🧠 Skills Demonstrated
+
+These projects collectively demonstrate practical knowledge across the complete analytics lifecycle.
+
+## 📊 Data Analytics
+
+* Data Cleaning
+* Data Transformation
+* Exploratory Data Analysis
+* Feature Engineering
+* Data Validation
+* Statistical Analysis
+* Business Analysis
+* KPI Development
+* Insight Generation
+
+## 🐍 Python
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Data Cleaning
+* EDA
+* Feature Engineering
+
+## 🗄️ SQL
+
+* SELECT / WHERE
+* GROUP BY / HAVING
+* JOINs
+* Subqueries
+* CTEs
+* Window Functions
+* Aggregations
+* CASE Statements
+* Date Functions
+* Ranking
+* Segmentation
+* Trend Analysis
+* Reporting Queries
+
+## 📈 Power BI
+
+* Power Query
+* Data Modeling
+* DAX
+* Calculated Columns
+* Measures
+* KPI Cards
+* Slicers
+* Interactive Reports
+* Dashboard Design
+* Custom Themes
+* Business Intelligence
+
+## 🛢️ Databases
+
+* MySQL
+* PostgreSQL
+* SQL Server
+
+## 🌐 Web & APIs
+
+* Next.js
+* React
+* Tailwind CSS
+* REST APIs
+* API Data Integration
+
+## 🛠️ Other Tools
+
+* Microsoft Excel
+* Git
+* GitHub
+* Jupyter Notebook
+* Power Query
+
+---
+
+# 🏗️ End-to-End Analytics Framework
+
+The projects in this portfolio generally follow a structured approach:
 
 ```text
-                    DATA
-                      │
-                      ▼
-              Data Collection
-                      │
-                      ▼
-               Data Cleaning
-                      │
-                      ▼
-             Data Transformation
-                      │
-                      ▼
-          Exploratory Data Analysis
-                      │
-                      ▼
-              SQL / Analysis
-                      │
-                      ▼
-              Data Modeling
-                      │
-                      ▼
-        Dashboards / Reports / Apps
-                      │
-                      ▼
-             Business Insights
-                      │
-                      ▼
-             Recommendations
+                 ┌──────────────┐
+                 │   RAW DATA   │
+                 └──────┬───────┘
+                        ↓
+                Data Collection
+                        ↓
+                 Data Cleaning
+                        ↓
+                Transformation
+                        ↓
+               Exploratory Analysis
+                        ↓
+                 SQL / Analysis
+                        ↓
+                  Data Modeling
+                        ↓
+          ┌─────────────┼─────────────┐
+          ↓             ↓             ↓
+       Power BI       Reports       Web Apps
+          ↓             ↓             ↓
+          └─────────────┼─────────────┘
+                        ↓
+                Business Insights
+                        ↓
+                  Recommendations
 ```
 
-This approach focuses not only on creating visualizations but also on understanding the underlying data and converting analysis into useful business insights.
+The objective is not simply to build dashboards, but to understand **why something is happening, what the data is telling us, and how those insights can support better decisions**.
 
 ---
 
-# Repository Structure
+# 📁 Repository Structure
 
 ```text
-Power-Bi-Projects/
+DATA-ANALYTICS-Projects/
+│
+├── Banking Analysis/
 │
 ├── Customer Shopping Behaviour Analysis/
-│   ├── customer_shopping_behavior.csv
-│   ├── Customer Behaviour Analysis.ipynb
-│   ├── Customer_Behaviour_Dashboard.pbix
-│   ├── Customer-Shopping-Behaviour-Analysis.pptx
-│   ├── Business Problem Document.pdf
-│   ├── Customer_Shopping_Behaviour_Analysis_Report.docx
-│   └── README.md
 │
 ├── Global-Data-Science-Salary-Dashboard/
-│   ├── data/
-│   │   ├── raw/
-│   │   └── cleaned/
-│   ├── notebooks/
-│   │   ├── 01_data_loading.ipynb
-│   │   ├── 02_data_cleaning.ipynb
-│   │   ├── 03_feature_engineering.ipynb
-│   │   ├── 04_eda_visualizations.ipynb
-│   │   └── 05_export_for_powerbi.ipynb
-│   ├── POWER_BI_PLAN.md
-│   ├── requirements.txt
-│   └── README.md
 │
 ├── Riding Analysis/
-│   ├── Riding Analysis Report.pbix
-│   ├── Taxi_Ride_Analysis_Premium_Dark.json
-│   ├── rideBookings.csv
-│   ├── Dashboard Screenshots/
-│   └── README.md
 │
 ├── Starbucks Analysis Dashboard/
-│   ├── Starbucks web app/          # Next.js + PostgreSQL app
-│   ├── Starbucks Dashboard.pbix
-│   ├── customers.csv
-│   ├── items.csv
-│   ├── sales.csv
-│   ├── SQL Queries.txt
-│   ├── Dashboard imgs/
-│   └── README.md
 │
 ├── Weather Dashboard/
-│   ├── Dataset/
-│   │   ├── Current.xlsx
-│   │   ├── Forcast_Day.xlsx
-│   │   ├── Forcast_Hour.xlsx
-│   │   └── MasterReport.xlsx
-│   ├── Backgrounds/
-│   ├── Icons/
-│   ├── Weather Dashboard.pbix
-│   └── README.md
 │
 ├── SQL Project/
-│   ├── datasets/
-│   │   ├── DataWarehouseAnalytics.bak
-│   │   └── csv-files/
-│   ├── scripts/
-│   │   ├── 00_init_database.sql
-│   │   ├── 01_database_exploration.sql
-│   │   ├── ...
-│   │   └── 13_report_products.sql
-│   ├── docs/
-│   └── README.md
+│
+├── .gitignore
 │
 └── README.md
 ```
 
----
-
-# What These Projects Demonstrate
-
-Together, these projects demonstrate the ability to:
-
-- Work with raw and semi-structured datasets
-- Clean and transform data
-- Perform exploratory data analysis
-- Use SQL for analytical and reporting queries
-- Build data models
-- Create calculated measures using DAX
-- Design interactive Power BI dashboards and custom themes
-- Build data-driven web applications with live database backends
-- Integrate API-based data
-- Present analytical findings clearly
-- Convert data into actionable business insights
+Each project folder contains its own datasets, notebooks, SQL scripts, Power BI files, documentation, or application source code where applicable.
 
 ---
 
-# Getting Started
+# 🛠️ Getting Started
 
-Clone the repository:
+## 1. Clone the Repository
 
 ```bash
-git clone git@github-theaditya24:theaditya24/Power-Bi-Projects.git
+git clone https://github.com/theaditya24/DATA-ANALYTICS-Projects.git
 ```
 
-Navigate into the repository:
+## 2. Navigate to the Repository
 
 ```bash
-cd Power-Bi-Projects
+cd DATA-ANALYTICS-Projects
 ```
 
-Then open the individual project folder you want to explore. Each project has its own README with detailed setup and usage instructions.
+## 3. Choose a Project
+
+```bash
+cd "Customer Shopping Behaviour Analysis"
+```
+
+Each project may have different requirements. Check the project's individual `README.md` before running notebooks, SQL scripts, dashboards, or applications.
 
 ---
 
-# Tools & Technologies
+# 📌 Project Highlights
 
-| Category | Technologies |
-|---|---|
-| Programming | Python |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Database | MySQL, PostgreSQL, SQL Server |
-| BI | Power BI |
-| Web | Next.js, React, Tailwind CSS |
-| Query & Transformation | SQL, T-SQL, Power Query |
-| Formula Language | DAX |
-| Data Sources | CSV, Excel, APIs |
-| Development | Jupyter Notebook |
-| Version Control | Git, GitHub |
+### 🛍️ Customer Analytics
 
----
+Analyzes customer purchasing behaviour to identify product, customer, loyalty, discount, and revenue patterns.
 
-# Project Highlights
+### 💼 Salary Analytics
 
-### Customer Analytics
+Explores global Data Science compensation and compares salary trends across roles, experience levels, and geographic markets.
 
-Uses transactional customer data to understand purchasing behaviour and identify opportunities for improving customer engagement and revenue.
+### 🚕 Operations Analytics
 
-### Salary Analytics
+Analyzes 150K ride bookings to understand completion rates, vehicle performance, revenue, cancellations, and failed rides.
 
-Uses Data Science job-market data to understand salary patterns and compare compensation across experience levels, roles, and geographic markets.
+### ☕ Retail Analytics
 
-### Operations Analytics
+Combines PostgreSQL, Next.js, and Power BI to demonstrate both operational monitoring and executive sales reporting.
 
-Analyzes 150K ride bookings to surface completion rates, vehicle performance, and cancellation root causes across a full year of operations.
+### 🌦️ API Analytics
 
-### Retail Analytics
+Demonstrates API integration, data transformation, and interactive weather visualization.
 
-Combines a live PostgreSQL-backed web app with a Power BI report to cover both real-time store operations and executive-level sales reporting.
+### 🗄️ SQL Analytics
 
-### Weather Analytics
+Demonstrates analytical SQL techniques including ranking, segmentation, trends, cumulative analysis, and reporting.
 
-Demonstrates API integration and Power BI reporting by transforming weather data into an interactive dashboard for current and forecast conditions.
+### 🏦 Banking Analytics
 
-### SQL Analytics
-
-Applies analytical SQL — segmentation, ranking, trend, and reporting queries — over a layered data-warehouse database.
+Applies data analysis and visualization techniques to banking and financial datasets.
 
 ---
 
-# Future Projects
+# 📚 What I Am Building Through These Projects
 
-This repository will continue to expand with additional data analytics projects covering areas such as:
+This portfolio is focused on developing the skills required for real-world **Data Analyst / Business Intelligence roles**, including:
 
-- Sales Analytics
-- Customer Churn
-- Financial Analysis
-- HR Analytics
-- Marketing Analytics
-- Supply Chain Analytics
-- E-commerce Analytics
-- Business Performance Analysis
+* Turning business questions into analytical problems
+* Working with raw and messy datasets
+* Cleaning and transforming data
+* Writing efficient analytical SQL
+* Performing exploratory data analysis
+* Building data models
+* Creating meaningful KPIs
+* Designing professional dashboards
+* Communicating insights through data storytelling
+* Connecting databases with analytical applications
+* Working with APIs
+* Translating findings into actionable business recommendations
 
 ---
 
-# Author
+# 🔮 Future Projects
+
+This repository will continue to grow with projects covering areas such as:
+
+* 📈 Sales Analytics
+* 👥 Customer Churn Analysis
+* 💳 Financial Analytics
+* 👨‍💼 HR Analytics
+* 📣 Marketing Analytics
+* 🚚 Supply Chain Analytics
+* 🛒 E-commerce Analytics
+* 📊 Business Performance Analytics
+* 💰 Financial Dashboarding
+* 🧑‍💻 Advanced SQL Analytics
+* 🤖 Machine Learning for Analytics
+
+---
+
+# 👨‍💻 About Me
 
 **Aditya Raj**
 
 B.Tech Computer Science & Engineering
 
-**Data Analytics | Python | SQL | Power BI**
+**Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization**
+
+I enjoy working with data to uncover patterns, solve business problems, and build analytical solutions that turn complex datasets into understandable insights.
 
 ---
 
-## Connect
+# 🔗 Connect With Me
 
-- GitHub: [@theaditya24](https://github.com/theaditya24)
+* **GitHub:** [@theaditya24](https://github.com/theaditya24)
 
 ---
 
-If you find these projects useful, feel free to explore the individual project folders.
+# ⭐ Support
+
+If you find these projects useful or interesting, consider giving the repository a ⭐.
+
+Your feedback, suggestions, and contributions are always welcome.
+
+---
+
+<p align="center">
+  <b>Turning Data into Insights. Turning Insights into Decisions. 🚀</b>
+</p>
