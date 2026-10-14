@@ -50,13 +50,13 @@ Explore the dashboard screenshots below to see the visualizations and insights d
 
 **Dashboard Overview**
 ### Overview
-![Spotify Dashboard 1](overview.png)
+![Spotify Dashboard 1](dashboard_imgs/overview.png)
 
 ### Listening Patterns
-![Spotify Dashboard 2](listening_patterns.png)
+![Spotify Dashboard 2](dashboard_imgs/listening_patterns.png)
 
 ### Details
-![Spotify Dashboard 3](details.png)
+![Spotify Dashboard 3](dashboard_imgs/details.png)
 
 ## 🎯 Business Objectives
 
